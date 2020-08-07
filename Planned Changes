@@ -1,0 +1,68 @@
+Recipe Changes:
+  fireclay from netherrack dust
+  netherrack dust from IE grinder
+  make paper easier
+  tool rot -> GT rod
+  slabs -> double chisel slab
+  block of quartz in furnace -> quartz glass
+  glowstone block
+  enderpearl dust 
+  netherrack grinding in IE grinder
+  
+  
+Removals:
+  EE covalence dust
+  
+Modify Mob Spawning
+	Blitz
+	Basalz
+	Shadow people in beneath
+	Diamond crab
+	Foliath
+Beneath features: void hole, spire, lava tubes, vugs, dungeons, groves?
+Marble Cave stalactites/stalagmites
+Adv Rocketry Asteroids
+Edit Game Music
+Customize dungeon loot
+Custom Villagers
+  Villagers use TE coins
+  Banker: exchanges coins
+  Brewer sells rustic alcohol
+  Herbalist
+  Chef
+Rustic Fermentation: add new alcohols
+  Vodka
+  Gin
+  Whiskey
+  Tequila
+  Komboucha
+  Sake
+  Brandy
+  Rakia
+Change Textures:
+  Energy field projector
+  GT ores
+Epic siege mod: reconfigure
+Rebalance GT ore deposits
+No asteroids in ocean
+Worldgen finder compass
+Change mining levels of GT ores/granite
+Reduce erebus min light level
+Remove scuttling sound in erebus
+Fix foliage graphics bug
+Reduce grimoire mobs in erebus (and overall)
+GT gem ores drop items instead of blocks
+Add casts for GT components
+add basalt ores to IE grinder
+Fuels:
+  TC wood shards
+Unify ore dict for metals, etc.
+
+
+
+
+Possible changes (?)
+  add ore scanner
+  variable zombie textures
+  realistic glass colors
+  simple storage network
