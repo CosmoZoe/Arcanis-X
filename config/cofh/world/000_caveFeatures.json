@@ -1,0 +1,118 @@
+{
+	"populate": {
+	
+		"netherTopCaveBubble" {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "minecraft:air",
+				"material": "gregtech:granite",
+				"cluster-size": 64
+			},
+			"cluster-count": 24,
+			"center-height": 182,
+			"spread": 60
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"netherTopQuartzGeode": {
+			"distribution": "gaussian",
+			"generator": {
+				"type": "geode",
+				"material": "gregtech:granite",
+				"block": [
+				{
+					"name": "gregtech:ore_nether_quartz_0",
+					"weight": 50
+				},
+				{
+					"name": "gregtech:ore_quartzite_0",
+					"weight": 50
+				},
+			],
+			"hollow": true,
+			"crust": "advancedrocketry:geode"
+			},
+			"cluster-count": 4,
+			"center-height": 182,
+			"spread": 60
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		
+		"thaumicGeodeMixed": {
+		"distribution": "uniform",
+		"generator": {
+			"type": "geode",
+			"material": "minecraft:stone",
+			"block": [
+			{
+				"name": "thaumcraft:crystal_aer",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "thaumcraft:crystal_terra",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "thaumcraft:crystal_ignis",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "thaumcraft:crystal_aqua",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "thaumcraft:crystal_ordo",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "thaumcraft:crystal_perditio",
+				"gen": 1
+				"size": 3
+				"weight": 16
+			},
+			{
+				"name": "minecraft:air",
+				"weight": 4
+			}
+		],
+		"hollow": true,
+		"crust": "appliedenergistics2:sky_stone_block"
+		},
+		"cluster-count": 1,
+		"chunk-chance": 4,
+		"min-height": 20,
+		"max-height": 50,
+		"retrogen": false,
+		"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,317 @@
+{
+	"populate": 
+	{
+		"limestone_stalagmite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "chisel:limestone2",
+							"weight": 80
+						},
+						{
+							"name": "chisel:limestone",
+							"weight": 20
+						}
+					],
+					"material": [
+						"chisel:limestone2",
+						"erebus:umberstone"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 6,
+			"chunk-chance": 1,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:submerged_swamp"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"volcano_stalagmite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "erebus:umberstone",
+							"weight": 70
+						},
+						{
+							"name": "erebus:volcanic_rock",
+							"weight": 20
+						},
+						{
+							"name": "erebus:umberstone",
+							"metadata": 1,
+							"weight": 10
+						},
+						{
+							"name": "biomesoplenty:dried_sand",
+							"weight": 5
+						}
+					],
+					"material": [
+						"erebus:volcanic_rock",
+						"biomesoplenty:dried_sand",
+						"erebus:umbergravel"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"erebus:dust_layer",
+						"biomesoplenty:dried_sand"
+					],
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 5,
+			"chunk-chance": 1,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:volcanic_desert",
+							"erebus:petrified_forest"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"marble_stalagmite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "chisel:marble2",
+							"weight": 75
+						},
+						{
+							"name": "chisel:marble",
+							"weight": 25
+						}
+					],
+					"material": [
+						"chisel:marble2",
+						"biomesoplenty:white_sand"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"biomesoplenty:white_sand"
+					],
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:ulterior_outback",
+							"erebus:underground_jungle"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"grassy_stalagmite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "erebus:umberstone",
+							"weight": 75
+						},
+						{
+							"name": "erebus:umberstone",
+							"metadata": 1,
+							"weight": 15
+						},
+						{
+							"name": "minecraft:grass",
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:grass",
+						"minecraft:dirt",
+						"erebus:umberstone"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"minecraft:grass",
+						"minecraft:dirt"
+					],
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:elysian_fields"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"fungal_stalagmite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "erebus:umberstone",
+							"weight": 75
+						},
+						{
+							"name": "erebus:umberstone",
+							"metadata": 1,
+							"weight": 15
+						},
+						{
+							"name": "minecraft:mycelium",
+							"weight": 10
+						}
+					],
+					"material": [
+						"minecraft:mycelium",
+						"minecraft:dirt",
+						"erebus:umberstone"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"minecraft:mycelium",
+						"minecraft:dirt"
+					],
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:fungi_forest"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+				"stone_stalagmite_small": {
+				"distribution": "cave","follow-terrain": "true",
+				"generator":{
+					"weight": 50,
+					"type": "stalagmite",
+					"block": [
+						{"name": "minecraft:stone","weight": 85},
+						{"name": "minecraft:gravel","weight": 15}],
+					"material": "minecraft:stone",
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 3,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			"cluster-count": 3,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": "all"
+			"dimension": "all"
+		}
+	}
+}

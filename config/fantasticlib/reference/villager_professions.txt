@@ -1,0 +1,16 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+vtt:brewer
+vtt:redstoner
+vtt:tinkerer
+matteroverdrive:mad_scientist
+bewitchment:hedge_witch
+bewitchment:alchemist
+forestry:arborist
+forestry:apiarist
+railcraft:trackman
+immersiveengineering:engineer

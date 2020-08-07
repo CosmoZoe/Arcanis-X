@@ -1,0 +1,55 @@
+{
+	"populate": {
+	
+		"arditeSpire": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+					"name": "tconstruct:ore",
+							"metadata": 1
+				},
+				"material": ["minecraft:bedrock", "minecraft:obsidian"],
+				"cluster-size": 16
+			},
+			"cluster-count": 1,
+			"center-height": 129,
+			"spread": 20
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		
+		"arditeCluster": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "tconstruct:ore",
+							"metadata": 1
+				},
+				"material": {
+					"name": "gregtech:granite",
+							"metadata": 1
+				},
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,
+			"min-height": 100,
+			"max-height": 180,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+		
+	}
+}

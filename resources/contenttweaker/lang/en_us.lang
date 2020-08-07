@@ -1,0 +1,135 @@
+
+
+material.aerogel=Aerogel
+material.anhydrite=Anhydrite
+material.aquamarine=Aquamarine
+material.argentite=Argentite
+material.bismuthinite=Bismuthinite
+material.celestine=Celestine
+material.cellulose=Cellulose
+material.cement=Cement
+material.ceramic=Ceramic
+material.cermet=Ceramo-Metal Composite
+material.chitin=Chitin
+material.coltan=Coltan
+material.columbite=Columbite
+material.corundum=Corundum
+material.criticalco2=Supercritical Carbon Dioxide
+material.fluorite=Fluorite
+material.hematite=Hematite
+material.horn_silver=Horn Silver
+material.kerogen=Kerogen
+material.metallic_hydrogen=Metallic Hydrogen
+material.nanosteel=Nanosteel
+material.nfeb=Neodymium Ferric Boron
+material.nfebpolar=Magnetic Neodymium Ferric Boron
+material.nickel_tetracarbonyl=Nickel Tetracarbonyl
+material.plasteel=Plasteel
+material.rose_quartz=Rose Quartz
+material.wolframite=Wolframite
+material.zircon=Zircon
+material.zirconium=Zirconium
+material.ardite=Ardite
+material.silicon_carbide=Silicon Carbide
+material.silicon_nitride=Silicon Nitride
+material.superconductingalloy=Superconducting Alloy
+material.positrons=Positrons
+material.antiprotons=Antiprotons
+material.antihydrogen=Antihydrogen
+material.positronium=Positronium
+
+
+fluid.liquid_hydrogen=Liquid Hydrogen
+fluid.liquid_oxygen=Liquid Oxygen
+fluid.liquid_methane=Liquid Methane
+fluid.hydrazine=Hydrazine
+fluid.kerosene=Kerosene
+fluid.nanosolution=Carbon Nanotube Solution
+fluid.crystal_juice=Liquified Crystal Matrix
+
+
+item.contenttweaker.nanotubes.name=Carbon Nanotubes
+
+item.contenttweaker.fire_crystal.name=Fiery Thermal Crystal
+item.contenttweaker.ice_crystal.name=Frozen Thermal Crystal
+item.contenttweaker.air_crystal.name=Swift Thermal Crystal
+item.contenttweaker.rock_crystal.name=Dense Thermal Crystal
+
+item.contenttweaker.mutandis.name=Mutandis
+
+item.contenttweaker.crystal_matrix_dust.name=Pulverized Crystal Matrix
+item.contenttweaker.crystal_matrix_grain.name=Crystal Matrix Grain
+
+item.contenttweaker.mossball.name=Ball of Moss
+item.contenttweaker.blastfurnacebrick.name=Blast Furnace Brick
+item.contenttweaker.porcelainbrick.name=Porcelain Brick
+item.contenttweaker.smelterybrick.name=Smeltery Brick
+item.contenttweaker.quantumassembly.name=Quantum Computing Core
+item.contenttweaker.crystalcomputer.name=Crystal Computing Core
+
+item.contenttweaker.crystalcomputer.name=Crystal Computing Core
+
+item.contenttweaker.steel_bearing.name=Steel Bearing
+item.contenttweaker.stainless_steel_bearing.name=Stainless Steel Bearing
+item.contenttweaker.aluminium_bearing.name=Aluminium Bearing
+item.contenttweaker.titanium_bearing.name=Titanium Bearing
+item.contenttweaker.tungsten_steel_bearing.name=Tungstensteel Bearing
+item.contenttweaker.hssg_bearing.name=HSS-G Bearing
+item.contenttweaker.neutronium_bearing.name=Neutronium Bearing
+
+item.contenttweaker.tungsten_carbide_bearing.name=Tungsten Carbide Bearing
+item.contenttweaker.silicon_carbide_bearing.name=Silicon Carbide Bearing
+item.contenttweaker.silicon_nitride_bearing.name=Silicon Nitride Bearing
+
+item.contenttweaker.graphenefinewire.name=Fine Graphene Wire
+item.contenttweaker.superconductorfinewire.name=Fine Superconducting Wire
+item.contenttweaker.resonatingcrystal.name=Resonating Crystal
+item.contenttweaker.nbtiboule.name=NbTi-Doped Silicon Boule
+item.contenttweaker.nbtiwafer.name=NbTi-Doped Silicon Wafer
+item.contenttweaker.engravednbtiwafer.name=Quantumdot Wafer
+item.contenttweaker.roughdiamond.name=Rough Diamond
+item.contenttweaker.thermocouple.name=Thermocouple
+item.contenttweaker.qdotchip.name=Quantumdot Chip
+
+fluid.graphenesolution=Graphene Solution
+fluid.biopolymer=Biopolymer
+fluid.zombiejuice=Liquefied Necrotic Tissue
+fluid.stemcelljuice=Stem Cell Solution
+fluid.braincelljuice=Neuron Solution
+fluid.blindnessjuice=Potion of Blindness
+fluid.biojuice=Enriched Bacterial Sludge
+fluid.crackedbiofuel=Steam Cracked Grassoline
+fluid.wort=Wort
+fluid.netherwort=Nether Wort
+fluid.nitrobenzaldehyde=2-Nitrobenzaldehyde
+fluid.compostjuice=Humic Fluid
+fluid.paraffin=Paraffin
+fluid.bioplastic=Bioplastic
+fluid.greengoo=Thick Bio Slurry
+
+item.contenttweaker.cubicbas.name=Cubic Boron Arsenide
+item.contenttweaker.basplate.name=Boron Arsenide Plate
+
+item.contenttweaker.wwboard.name=Unsterilized Wetware Board
+item.contenttweaker.glassware.name=Sterilized Glassware
+item.contenttweaker.braintissue.name=Bionic Brain Tissue
+item.contenttweaker.magnetobraintissue.name=Magnetosensitive Brain Tissue
+item.contenttweaker.braininajar.name=Brain In A Jar
+item.contenttweaker.cognitionnexus.name=Cognition Nexus
+item.contenttweaker.lsfluidmodule.name=Life Support Fluid Exchange Module
+item.contenttweaker.lswastemodule.name=Life Support Waste Recylcer
+item.contenttweaker.fungalspores.name=Fungal Spores
+item.contenttweaker.netherspores.name=Nether Spores
+item.contenttweaker.hydrogenmixture.name=Metastable Hydrogen Mixture
+item.contenttweaker.metallichydrogen.name=Stable Metallic Hydrogen
+item.contenttweaker.hydrogennugget.name=Metallic Hydrogen Nugget
+item.contenttweaker.superconductoringot.name=Superconducting Alloy Ingot
+item.contenttweaker.nphenylglycine.name=N-Phenylglycine
+item.contenttweaker.biofilm.name=Microbial Biofilm
+item.contenttweaker.hydrogel.name=Hydrogel
+item.contenttweaker.hydrogelpulp.name=Hydrogel Pulp
+item.contenttweaker.superconductordust.name=Superconducting Alloy Dust
+item.contenttweaker.bioqdot.name=Biocompatable Quantumdots
+
+
+tile.contenttweaker.cubicbasblock.name=Block of Cubic Boron Arsenide

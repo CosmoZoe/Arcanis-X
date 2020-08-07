@@ -1,0 +1,1588 @@
+{
+	"populate": {
+	
+		"rutile_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_rutile_0",
+						"weight": 40
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_potassium_feldspar_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"weight": 20
+						"metadata": 11,
+					}
+				],
+				"material": 
+					{
+						"name": "gregtech:granite",
+						"metadata": 1
+					},
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 250,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"tunsten_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_wolframite_0",
+						"weight": 50
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"weight": 30
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 10
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_garnet_yellow_0",
+						"weight": 10
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"diamond_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_diamond_0",
+						"weight": 60
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_graphite_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_garnierite_0",
+						"weight": 10
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_garnet_red_0",
+						"weight": 10
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cuprite_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_malachite_0",
+						"metadata": 11,
+						"weight": 50
+					},
+					{
+						"name": "gregtech:ore_cuprite_0",
+						"metadata": 11,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_calcite_0",
+						"metadata": 11,
+						"weight": 10
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"gold_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_gold_0",
+						"weight": 50
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_vanadium_magnetite_0",
+						"weight": 30
+						"metadata": 11,
+					},
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"quartz_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"galena_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"weight": 40
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"weight": 35
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"weight": 15
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 10
+						"metadata": 11,
+					},
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cobalt_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"weight": 40
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"weight": 15
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_platinum_0",
+						"weight": 15
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"monazite_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_monazite_0",
+						"weight": 30
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"weight": 20
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_thorium_0",
+						"weight": 25
+						"metadata": 11,
+					}
+					{
+						"name": "gregtech:ore_plutonium_0",
+						"weight": 5
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"redstone_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"weight": 50
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"weight": 30
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"weight": 20
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"osmiridium_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_osmiridium_0",
+						"weight": 30
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_cooperite_0",
+						"weight": 50
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_palladium_0",
+						"weight": 5
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0_0",
+						"weight": 15
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"rare_earth_redgranite" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"weight": 50
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_coltan_0",
+						"weight": 30
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_columbite_0",
+						"weight": 10
+						"metadata": 11,
+					},
+					{
+						"name": "gregtech:ore_tantalite_0_0",
+						"weight": 10
+						"metadata": 11,
+					}
+				],
+				"material": {"name": "gregtech:granite","metadata": 1},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"rutile_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_rutile_0",
+						"weight": 40
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_potassium_feldspar_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"weight": 20
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 250,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"tunsten_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_wolframite_0",
+						"weight": 50
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"weight": 30
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 10
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_garnet_yellow_0",
+						"weight": 10
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"diamond_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_diamond_0",
+						"weight": 60
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_graphite_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_garnierite_0",
+						"weight": 10
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_garnet_red_0",
+						"weight": 10
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cuprite_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_malachite_0",
+						"metadata": 6,
+						"weight": 50
+					},
+					{
+						"name": "gregtech:ore_cuprite_0",
+						"metadata": 6,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_calcite_0",
+						"metadata": 6,
+						"weight": 10
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"gold_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_gold_0",
+						"weight": 50
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_vanadium_magnetite_0",
+						"weight": 30
+						"metadata": 6,
+					},
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"quartz_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"galena_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"weight": 40
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"weight": 35
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"weight": 15
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 10
+						"metadata": 6,
+					},
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cobalt_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"weight": 40
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"weight": 15
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_platinum_0",
+						"weight": 15
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"monazite_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_monazite_0",
+						"weight": 30
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"weight": 20
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_thorium_0",
+						"weight": 25
+						"metadata": 6,
+					}
+					{
+						"name": "gregtech:ore_plutonium_0",
+						"weight": 5
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"redstone_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"weight": 50
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"weight": 30
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"weight": 20
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"osmiridium_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_osmiridium_0",
+						"weight": 30
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_cooperite_0",
+						"weight": 50
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_palladium_0",
+						"weight": 5
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0_0",
+						"weight": 15
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"rare_earth_netherrack": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"weight": 50
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_coltan_0",
+						"weight": 30
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_columbite_0",
+						"weight": 10
+						"metadata": 6,
+					},
+					{
+						"name": "gregtech:ore_tantalite_0_0",
+						"weight": 10
+						"metadata": 6,
+					}
+				],
+				"material": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"rutile_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_rutile_0",
+						"weight": 40
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_potassium_feldspar_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"weight": 20
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"min-height": 1,
+			"max-height": 250,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"tunsten_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_wolframite_0",
+						"weight": 50
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"weight": 30
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 10
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_garnet_yellow_0",
+						"weight": 10
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"diamond_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_diamond_0",
+						"weight": 60
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_graphite_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_garnierite_0",
+						"weight": 10
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_garnet_red_0",
+						"weight": 10
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cuprite_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_malachite_0",
+						"metadata": 1,
+						"weight": 50
+					},
+					{
+						"name": "gregtech:ore_cuprite_0",
+						"metadata": 1,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_calcite_0",
+						"metadata": 1,
+						"weight": 10
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"gold_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_gold_0",
+						"weight": 50
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_vanadium_magnetite_0",
+						"weight": 30
+						"metadata": 1,
+					},
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"quartz_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "minecraft:netherrack"
+					},
+					{
+						"name": "netherex:fiery_netherrack"
+					},
+					{
+						"name": "netherex:icy_netherrack"
+					},
+					{
+						"name": "netherex:lively_netherrack"
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"galena_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"weight": 40
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"weight": 35
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"weight": 15
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 10
+						"metadata": 1,
+					},
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"cobalt_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"weight": 40
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"weight": 15
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_platinum_0",
+						"weight": 15
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"monazite_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_monazite_0",
+						"weight": 30
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_netherrack_quartz_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"weight": 20
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_thorium_0",
+						"weight": 25
+						"metadata": 1,
+					}
+					{
+						"name": "gregtech:ore_plutonium_0",
+						"weight": 5
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"redstone_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"weight": 50
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"weight": 30
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"weight": 20
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"osmiridium_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_osmiridium_0",
+						"weight": 30
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_cooperite_0",
+						"weight": 50
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_palladium_0",
+						"weight": 5
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0_0",
+						"weight": 15
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"rare_earth_soulstone" {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"weight": 50
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_coltan_0",
+						"weight": 30
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_columbite_0",
+						"weight": 10
+						"metadata": 1,
+					},
+					{
+						"name": "gregtech:ore_tantalite_0_0",
+						"weight": 10
+						"metadata": 1,
+					}
+				],
+				"material": {"name": "netherex:gloomy_netherrack"},
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		}
+		
+	}
+}

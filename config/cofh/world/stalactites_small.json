@@ -1,0 +1,257 @@
+{
+	"populate": 
+	{
+		"limestone_stalactite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ceiling": "true",
+			"ground-level": 80,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "chisel:limestone2",
+							"weight": 80
+						},
+						{
+							"name": "chisel:limestone",
+							"weight": 20
+						}
+					],
+					"material": [
+						"chisel:limestone2",
+						"erebus:umberstone"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 5,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:submerged_swamp"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"volcano_stalactite_small": {
+			"distribution": "cave",
+			"ceiling": "true",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "erebus:umberstone",
+							"weight": 70
+						},
+						{
+							"name": "erebus:volcanic_rock",
+							"weight": 20
+						},
+						{
+							"name": "erebus:umberstone",
+							"metadata": 1,
+							"weight": 10
+						},
+						{
+							"name": "biomesoplenty:dried_sand",
+							"weight": 5
+						}
+					],
+					"material": [
+						"erebus:volcanic_rock",
+						"biomesoplenty:dried_sand",
+						"erebus:umberstone"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"erebus:dust_layer",
+						"biomesoplenty:dried_sand"
+					],
+					"smooth": false,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 5,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:volcanic_desert",
+							"erebus:petrified_forest"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		
+		"marble_stalactite_small": {
+			"distribution": "cave",
+			"ceiling": "true",
+			"follow-terrain": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "chisel:marble2",
+							"weight": 75
+						},
+						{
+							"name": "chisel:marble",
+							"weight": 25
+						}
+					],
+					"material": [
+						"chisel:marble2",
+						"biomesoplenty:white_sand"
+					],
+					"gen-body": [
+						"minecraft:air",
+						"biomesoplenty:white_sand"
+					],
+					"smooth": false,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 5,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 4,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:ulterior_outback",
+							"erebus:underground_jungle"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		},
+				"stone_stalactite_small": {
+				"distribution": "cave","follow-terrain": "true",
+				"generator":{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{"name": "minecraft:stone","weight": 85},
+						{"name": "minecraft:gravel","weight": 15}],
+					"material": "minecraft:stone",
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 5,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			"cluster-count": 3,
+			"chunk-chance": 2,
+			"retrogen": false,
+			"biome": "all"
+			"dimension": "all"
+		},
+		
+		"umber_stalactite_small": {
+			"distribution": "cave",
+			"follow-terrain": "true",
+			"ceiling": "true",
+			"ground-level": 120,
+			"generator":
+			
+			{
+					"weight": 50,
+					"type": "stalactite",
+					"block": [
+						{
+							"name": "erebus:umberstone",
+							"weight": 75
+						},
+						{
+							"name": "erebus:umberstone",
+							"metadata": 1,
+							"weight": 15
+						}
+						],
+					"material": [
+						"erebus:umberstone"
+					],
+					"gen-body": "minecraft:air",
+					"smooth": false,
+					"fat": false,
+					"min-height": 3,
+					"height-variance": 5,
+					"height-mod": 2,
+					"gen-size": 0,
+					"size-variance": 1
+			}
+			
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"erebus:submerged_swamp",
+							"erebus:elysian_fields",
+							"erebus:fungi_forest",
+							"erebus:ulterior_outback",
+							"erebus:petrified_forest"
+							
+						]
+					}
+				]
+			},
+			"dimension": "all"
+		}
+		
+	}
+}

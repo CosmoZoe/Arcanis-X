@@ -1,0 +1,720 @@
+{
+	"populate": {
+	
+		"rutile_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_rutile_0",
+						"weight": 40
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"weight": 20
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_potassium_feldspar_0",
+						"weight": 20
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"weight": 20
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"min-height": 80,
+			"max-height": 250,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"tunsten_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_wolframite_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"weight": 30
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_nether_quartz_0",
+						"weight": 10
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_garnet_yellow_0",
+						"weight": 10
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"diamond_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_diamond_0",
+						"weight": 60
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_graphite_0",
+						"weight": 20
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_garnierite_0",
+						"weight": 10
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_garnet_red_0",
+						"weight": 10
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 2,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"cuprite_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_malachite_0",
+						"metadata": 13,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_cuprite_0",
+						"metadata": 13,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_calcite_0",
+						"metadata": 13,
+						"weight": 20
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"gold_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_gold_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_magnetite_0",
+						"weight": 20
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_vanadium_magnetite_0",
+						"weight": 30
+						"metadata": 13,
+					},
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"quartz_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_quartzite_0",
+						"metadata": 13,
+						"weight": 40
+					},
+					{
+						"name": "gregtech:ore_certus_quartz_0",
+						"metadata": 13,
+						"weight": 20
+					},
+					{
+						"name": "gregtech:ore_nether_quartz_0",
+						"metadata": 13,
+						"weight": 20
+					},
+					{
+						"name": "gregtech:ore_amethyst_0",
+						"metadata": 13,
+						"weight": 5
+					},
+					{
+						"name": "gregtech:ore_opal_0",
+						"metadata": 13,
+						"weight": 5
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"galena_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"weight": 30
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"weight": 10
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 10
+						"metadata": 13,
+					},
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"tin_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_sphalerite_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 30
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_fluorite_0",
+						"weight": 10
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_bismuthinite_0",
+						"weight": 10
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"cobalt_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_cobaltite_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_pyrite_0",
+						"weight": 25
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_nickel_0",
+						"weight": 10
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_platinum_0",
+						"weight": 5
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"monazite_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_monazite_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_quartzite_0",
+						"weight": 30
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"weight": 5
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_thorium_0",
+						"weight": 5
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"redstone_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 300,
+					"type": "cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_redstone_0",
+						"weight": 50
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_cinnabar_0",
+						"weight": 30
+						"metadata": 13,
+					},
+					{
+						"name": "gregtech:ore_ruby_0",
+						"weight": 20
+						"metadata": 13,
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 120,
+			"max-height": 200,
+			"retrogen": "true",
+			"biome": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+	
+		"lapis_deposit_beneath": {
+			"distribution": "uniform",
+			"generator": {
+					"weight": 30,
+					"type": "sparse-cluster",
+				"block": [
+					{
+						"name": "gregtech:ore_lapis_0",
+						"metadata": 13,
+						"weight": 60
+					},
+					{
+						"name": "gregtech:ore_lazurite_0",
+						"metadata": 13,
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_sodalite_0",
+						"metadata": 13,
+						"weight": 10
+					}
+				],
+				"material": [
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7
+					},
+					{
+						"name": "chisel:basalt2"
+					},
+					{
+						"name": "erebus:volcanic_rock"
+					},
+					{
+						"name": "advancedrocketry:basalt"
+					},
+					{
+						"name": "netherex:basalt"
+					}
+				],
+				"cluster-size": 18
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 180,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		
+	}
+}

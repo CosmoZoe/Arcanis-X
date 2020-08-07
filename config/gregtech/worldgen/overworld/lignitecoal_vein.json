@@ -1,0 +1,27 @@
+{
+  "weight": 120,
+  "density": 0.8,
+  "min_height": 65,
+  "surface_stone_material": "lignite",
+
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [6, 12]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 75,
+          "value": "ore:lignite"
+        },
+        {
+          "weight": 25,
+          "value": "ore:coal"
+        }
+      ]
+    }
+  }
+}

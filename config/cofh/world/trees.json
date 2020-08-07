@@ -1,0 +1,250 @@
+{
+	"populate": {
+		"rubber_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": "gregtech:leaves",
+				"surface": "minecraft:grass",
+				"minHeight": 5, 
+				"heightVariance": 3,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": [
+						{
+							"name": "gregtech:log",
+							"properties":{
+                            "axis": "y"
+							}
+						}
+					],
+			},
+			"cluster-count": 1,
+			"chunkChance": 6,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"rubber_tree_2": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": "gregtech:leaves",
+				"surface": "minecraft:grass",
+				"minHeight": 5, 
+				"heightVariance": 3,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": [
+						{
+							"name": "gregtech:log",
+							"properties":{
+                            "axis": "y"
+							}
+						}
+					],
+			},
+			"cluster-count": 1,
+			"chunkChance": 12,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "JUNGLE"
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"maple_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": {
+							"name": "forestry:leaves.decorative.0",
+							"metadata": 9
+					},
+				"surface": "minecraft:grass",
+				"minHeight": 8, 
+				"heightVariance": 6,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": {
+							"name": "forestry:logs.5",
+							"metadata": 2
+					},
+			},
+			"cluster-count": 1,
+			"chunkChance": 4,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:maple_woods"
+						]
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"hill_cherry_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": {
+							"name": "forestry:leaves.decorative.0",
+							"metadata": 6
+					},
+				"surface": [
+						{
+							"name": "biomesoplenty:grass",
+							"metadata": 4
+						}
+					],
+				"minHeight": 2, 
+				"heightVariance": 2,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": {
+							"name": "forestry:logs.3",
+							"metadata": 3
+					},
+			},
+			"cluster-count": 1,
+			"chunkChance": 4,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:cherry_blossom_grove"
+						]
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"juniper_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": "bewitchment:juniper_leaves",
+				"surface": "minecraft:grass",
+				"minHeight": 3, 
+				"heightVariance": 6,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": "bewitchment:juniper_wood",
+				}
+			"cluster-count": 1,
+			"chunkChance": 3,
+			"chunkChance": 3,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"ironwood_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": {
+						"name": "rustic:leaves",
+						"metadata": 1,
+					},
+				"surface": "minecraft:grass",
+				"minHeight": 8, 
+				"heightVariance": 4,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": {
+						"name": "rustic:log",
+						"metadata": 1,
+					},
+				}
+			"cluster-count": 1,
+			"chunkChance": 4,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SAVANNA"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FOREST"
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		},
+		
+		"olive_tree": {
+			"distribution": "surface",
+			"generator": {
+				"type": "small-tree",
+				"leaves": "rustic:leaves",
+				"surface": "minecraft:grass",
+				"minHeight": 4, 
+				"heightVariance": 4,
+				"water-loving": false,
+				"tree-checks": true,
+				"block": "rustic:log",
+				}
+			"cluster-count": 1,
+			"chunkChance": 4,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": "traverse:desert_shrubland"
+					},
+					{
+						"type": "dictionary",
+						"entry": "LUSH"
+					}
+				]
+			},
+			"dimensionRestriction": "whitelist",
+			"dimensions": 0
+		}
+		
+	}
+}

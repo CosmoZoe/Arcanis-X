@@ -1,0 +1,379 @@
+{
+	"populate": {
+	
+		"basaltCrackedBeneath": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:basalt",
+				},
+				"material": {
+					"name": "chisel:basalt2",
+					"metadata": 7
+				},
+				"cluster-size": 256
+			},
+			"cluster-count": 64,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"basaltNexBeneath": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "advancedrocketry:basalt"},
+					{"name": "netherex:basalt"}
+					
+				],
+				"material": {
+					"name": "chisel:basalt2",
+					"metadata": 7
+				},
+				"cluster-size": 64
+			},
+			"cluster-count": 32,
+			"min-height": 1,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"obsidianBeneath": {
+			"enabled": "true",
+			"distribution": "gaussian",
+			"generator": {
+				"block": {
+					"name": "minecraft:obsidian",
+				},
+				"material": {
+					"name": "chisel:basalt2",
+					"metadata": 7
+				},
+				"cluster-size": 16
+			},
+			"cluster-count": 12,
+			"center-height": 128,
+			"spread": 100
+			"smoothness": 0.01 
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"volcanicRockBeneath": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "erebus:volcanic_rock",
+				},
+				"material": {
+					"name": "chisel:basalt2",
+					"metadata": 7
+				},
+				"cluster-size": 128
+			},
+			"cluster-count": 64,
+			"min-height": 128,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		"netherrackVeinNether": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:netherrack",
+				},
+				"material": [
+				{
+					"name": "gregtech:granite",
+					"metadata": 1
+				},
+				{
+					"name": "netherex:fiery_netherrack"
+				}
+				]
+				"cluster-size": 256
+			},
+			"cluster-count": 64,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"magmaVeinNether": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:magma",
+				},
+				"material": [
+				{
+					"name": "gregtech:granite",
+					"metadata": 1
+				},
+				{
+					"name": "netherex:fiery_netherrack"
+				}
+				]
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"dustVeinNether": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "erebus:dust",
+				},
+				"material": [
+				{
+					"name": "gregtech:granite",
+					"metadata": 1
+				},
+				{
+					"name": "netherex:fiery_netherrack"
+				}
+				]
+				"cluster-size": 32
+			},
+			"cluster-count": 16,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"granite_vein_red": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gregtech:granite",
+							"metadata": 1,
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"granite_vein_black": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gregtech:granite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"diorite_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:stone",
+							"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		"andesite_vein": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "minecraft:stone",
+							"metadata": 5
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"limestoneVeinChisel": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:limestone2"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"marbleVeinChisel": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:marble2"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"marbleCracked": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:marble"
+				},
+				"material": "chisel:marble2",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66,
+					0
+				]
+			}
+		},
+		"limestoneCracked": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:limestone"
+				},
+				"material": "chisel:limestone2",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 1,
+			"max-height": 255,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66,
+					0
+				]
+			}
+		},
+	}
+}
