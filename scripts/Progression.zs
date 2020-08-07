@@ -195,5 +195,19 @@ recipes.addShapeless(<erebus:materials:62>, [<erebus:materials:61>,<erebus:erebu
 
 recipes.addShapeless(<minecraft:glowstone_dust>, [<erebus:materials:12>]);
 
+recipes.addShapeless(<gregtech:meta_item_1:2356>*8, [<ore:dustTinyNetherrack>, <ore:dustClay>, <ore:dustClay>, <gregtech:meta_item_1:2105>, <ore:dustClay>, <ore:dustClay>, <ore:dustClay>, <gregtech:meta_item_1:2105>, <ore:dustClay>]);
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_item_1:2333>, <ore:stoneNetherrack>, 2048);
+
+recipes.removeByRecipeName("gregtech:paper_dust");
+recipes.remove(<minecraft:paper>);
+
+
+recipes.addShapeless(<minecraft:paper>*3, [<erebus:materials:26>, <erebus:materials:26>, <erebus:materials:26>]);
+recipes.addShapeless(<erebus:materials:26>, [<ore:sugarcane>]);
+recipes.addShapeless(<erebus:materials:26>, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:listAllwater>]);
+
+
+
+
 
 

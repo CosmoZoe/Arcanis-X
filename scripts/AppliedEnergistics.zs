@@ -34,3 +34,8 @@ recipes.addShapeless(<appliedenergistics2:material:44>, [<matteroverdrive:me_con
 recipes.addShapeless(<appliedenergistics2:material:43>, [<matteroverdrive:me_conversion_matrix>, <gregtech:meta_item_1:32684>]);
 
 recipes.addShapedMirrored(<minecraft:quartz_block>,[[<ore:gemNetherQuartz>,<ore:gemNetherQuartz>],[<ore:gemNetherQuartz>,<ore:gemNetherQuartz>]]);
+recipes.remove(<appliedenergistics2:quartz_glass>);
+furnace.addRecipe(<appliedenergistics2:quartz_glass>, <ore:blockNetherQuartz>);
+furnace.addRecipe(<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_block>);
+furnace.addRecipe(<appliedenergistics2:quartz_glass>, <ore:blockQuartzite>);
+furnace.addRecipe(<appliedenergistics2:quartz_glass>, <ore:blockCertusQuartz>);

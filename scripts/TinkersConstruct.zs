@@ -16,3 +16,12 @@ mods.tconstruct.Melting.addRecipe(<liquid:iron> * 288,<gregtech:ore_hematite_0>)
 
 recipes.remove(<tconstruct:materials:18>);
 recipes.addShaped(<tconstruct:materials:18>, [[<erebus:wall_plants:1>, <erebus:wall_plants:1>, <erebus:wall_plants:1>], [<erebus:wall_plants:1>, <erebus:wall_plants:1>, <erebus:wall_plants:1>], [<erebus:wall_plants:1>, <erebus:wall_plants:1>, <erebus:wall_plants:1>]]);
+
+recipes.addShapeless(<gregtech:meta_item_1:14095>, [<tconstruct:tool_rod>.withTag({Material: "bronze"})]);
+recipes.addShapeless(<tconstruct:tool_rod>.withTag({Material: "bronze"}), [<gregtech:meta_item_1:14095>]);
+
+
+
+
+
+

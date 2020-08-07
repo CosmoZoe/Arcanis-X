@@ -24,8 +24,12 @@
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<gregtech:meta_item_1:2218>, [<ore:dustEmerald>, <ore:dustNiter>, <appliedenergistics2:material:45>]);
+recipes.addShapeless(<minecraft:stone_slab>*2, [<chisel:stonebrick2:8>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
+recipes.addShaped(<chisel:stonebrick2:8>, [[<minecraft:stone_slab>], [<minecraft:stone_slab>]]);
 recipes.addShaped(<gregtech:meta_item_2:32454>*4, [[null, <ore:plateGlass>, null], [<minecraft:glass_pane>, null, <ore:plateGlass>], [null, <minecraft:glass_pane>, null]]);
 
