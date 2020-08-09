@@ -1,5 +1,12 @@
 Recipe Changes:
   tool rod -> GT rod
+  add endereye/redstone dust recipe
+  add recipes for synthetic gems
+  soul shards components
+  breaking bookshelves
+  red clathrate -> redstone
+  red alloy wire is made from wire
+  chese is made in fermenters
   
   
 Removals:
@@ -49,6 +56,7 @@ add basalt ores to IE grinder
 Fuels:
   TC wood shards
 Unify ore dict for metals, etc.
+Redstone in other dimensions
 
 
 
