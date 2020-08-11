@@ -22,9 +22,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "PLAINS",
     "WET",
-    "LUSH",
-    "PLAINS"
+    "LUSH"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -132,13 +132,13 @@
     },
     {
       "Entity Class": "gaia.entity.monster.EntityGaiaSatyress",
-      "Weight": 30,
+      "Weight": 1,
       "Min Group Count": 2,
       "Max Group Count": 4
     },
     {
       "Entity Class": "gaia.entity.monster.EntityGaiaCentaur",
-      "Weight": 20,
+      "Weight": 1,
       "Min Group Count": 4,
       "Max Group Count": 6
     },

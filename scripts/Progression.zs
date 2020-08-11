@@ -110,9 +110,8 @@ recipes.addShapeless(<gregtech:meta_item_1:2356>*3, [<ore:dustClay>*3, <gregtech
 recipes.addShapeless(<gregtech:meta_item_1:2356>*3, [<ore:dustClay>*3, <ore:dustSmallNetherQuartz>]);
 
 recipes.removeByRecipeName("immersiveengineering:stone_decoration/alloybrick");
-recipes.addShapedMirrored(<immersiveengineering:stone_decoration:10>*2, [[<erebus:mir_brick>, <advancedrocketry:blastbrick>],[<advancedrocketry:blastbrick>,<erebus:mir_brick>]]);
+recipes.addShapedMirrored(<immersiveengineering:stone_decoration:10>*2, [[<erebus:mud_brick>, <gregtech:metal_casing:1>],[<gregtech:metal_casing:1>,<erebus:mud_brick>]]);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<gregtech:meta_item_2:32015>, <ore:clay>, <ore:sand>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:netherbrick>, <minecraft:soul_sand>, <ore:dustNetherrack>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:porcelainbrick>, <ore:clay>, <ore:dustKaolinite>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:porcelainbrick>, <ore:clay>, <minecraft:dye:15>*2, 200);
@@ -122,10 +121,6 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:materials>, <gregte
 mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:materials>, <gregtech:meta_item_1:2356>, <ore:dustTinyGraphite>, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(<tconstruct:materials>, <gregtech:meta_item_1:2356>, <ore:dustSmallCarbon>, 200);
 
-recipes.remove(<gregtech:metal_casing:1>);
-recipes.addShapedMirrored(<gregtech:metal_casing:1>, [[<contenttweaker:blastfurnacebrick>,<contenttweaker:blastfurnacebrick>],[<contenttweaker:blastfurnacebrick>,<contenttweaker:blastfurnacebrick>]]);
-recipes.remove(<gregtech:metal_casing:8>);
-recipes.addShapedMirrored(<gregtech:metal_casing:8>, [[<gregtech:meta_item_2:32015>,<gregtech:meta_item_2:32015>],[<gregtech:meta_item_2:32015>,<gregtech:meta_item_2:32015>]]);
 recipes.remove(<tconstruct:seared:3>);
 recipes.addShapedMirrored(<tconstruct:seared:3>, [[<tconstruct:materials>,<tconstruct:materials>],[<tconstruct:materials>,<tconstruct:materials>]]);
 
@@ -205,6 +200,28 @@ recipes.remove(<minecraft:paper>);
 recipes.addShapeless(<minecraft:paper>*3, [<erebus:materials:26>, <erebus:materials:26>, <erebus:materials:26>]);
 recipes.addShapeless(<erebus:materials:26>, [<ore:sugarcane>]);
 recipes.addShapeless(<erebus:materials:26>, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:listAllwater>]);
+
+
+<railcraft:coke_oven_red>.clearTooltip();
+<railcraft:coke_oven_red>.addTooltip("Red Coak Oven Brick");
+<railcraft:coke_oven_red>.addTooltip(format.gray("Multi-Block: 3x3x3 (Hollow)"));
+<railcraft:coke_oven_red>.addTooltip(format.blue(format.italic("Railcraft")));
+
+recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.addShapedMirrored(<immersiveengineering:stone_decoration:1>, [[<gregtech:metal_casing:1>,<advancedrocketry:blastbrick>],[<advancedrocketry:blastbrick>,<gregtech:metal_casing:1>]]);
+recipes.addShapedMirrored(<immersiveengineering:stone_decoration:1>, [[<advancedrocketry:blastbrick>,<gregtech:metal_casing:1>],[<gregtech:metal_casing:1>,<advancedrocketry:blastbrick>]]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

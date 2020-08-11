@@ -22,11 +22,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "CONIFEROUS",
-    "SNOWY",
+    "COLD",
     "FOREST",
     "HILLS",
-    "COLD"
+    "CONIFEROUS",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -95,6 +95,12 @@
       "Weight": 9,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -287,12 +293,6 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
-    },
-    {
-      "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawn Biome": false,

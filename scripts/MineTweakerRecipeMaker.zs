@@ -29,6 +29,7 @@ recipes.addShapeless(<minecraft:stone_slab>*2, [<chisel:stonebrick2:8>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShapedMirrored(<gregtech:meta_item_2:32014>*4, [[<ore:dustFireclay>, <ore:dustFireclay>], [<ore:dustFireclay>, <ore:dustFireclay>]]);
 recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>]]);
 recipes.addShaped(<chisel:stonebrick2:8>, [[<minecraft:stone_slab>], [<minecraft:stone_slab>]]);
 recipes.addShaped(<gregtech:meta_item_2:32454>*4, [[null, <ore:plateGlass>, null], [<minecraft:glass_pane>, null, <ore:plateGlass>], [null, <minecraft:glass_pane>, null]]);

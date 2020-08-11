@@ -117,3 +117,38 @@ recipes.addShapeless(<advancedrocketry:dataunit>, [<gregtech:meta_item_1:32708>]
 recipes.addShapeless(<advancedrocketry:launchpad>, [<minecraft:concrete:8>, <gregtech:warning_sign:5>]);
 recipes.addShapeless(<advancedrocketry:satelliteprimaryfunction>, [<ore:lensDiamond>, <gregtech:meta_item_1:32693>]);
 recipes.addShapeless(<advancedrocketry:structuretower>, [<ore:frameGtSteel>]);
+
+recipes.remove(<libvulpes:productrod:1>);
+recipes.remove(<libvulpes:productrod:4>);
+recipes.remove(<libvulpes:productrod:6>);
+recipes.remove(<libvulpes:productrod:10>);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@ val mixer = RecipeMap.getByName("mixer");
 
 
 recipes.remove(<appliedenergistics2:molecular_assembler>);
-recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<ore:plateDenseLead>, <ore:blockGlassHardened>, <ore:plateDenseLead>], [<appliedenergistics2:part:260>, <gregtech:machine:102>, <appliedenergistics2:part:240>], [<ore:plateDenseLead>, <ore:blockGlassHardened>, <ore:plateDenseLead>]]);
+recipes.addShaped(<appliedenergistics2:molecular_assembler>, [[<ore:plateDenseLead>, <ore:blockGlassHardened>, <ore:plateDenseLead>], [<appliedenergistics2:part:260>, <gregtech:machine:103>, <appliedenergistics2:part:240>], [<ore:plateDenseLead>, <ore:blockGlassHardened>, <ore:plateDenseLead>]]);
 recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
 recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [[<ore:plateDenseLead>, <ore:lensDiamond>, <ore:plateDenseLead>], [<appliedenergistics2:fluix_block>, <gregtech:meta_item_1:32673>, <appliedenergistics2:fluix_block>], [<ore:plateDenseLead>, <gregtech:machine_casing:4>, <ore:plateDenseLead>]]);
 
