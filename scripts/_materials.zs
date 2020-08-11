@@ -92,13 +92,10 @@ val acrylonitrile = MaterialRegistry.createFluidMaterial(680, "acrylonitrile", 0
 
 val PAN = MaterialRegistry.createFluidMaterial(681, "PAN", 0x6D9E8C, "fluid", [<material:acrylonitrile>*4]);
 
-val ardite = MaterialRegistry.createIngotMaterial(682, "ardite", 0xD34117, "shiny", 4, null);
-ardite.addFlags("GENERATE_PLATE", "GENERATE_ROD", "GENERATE_RING", "GENERATE_DENSE", "NO_SMELTING");
-
-val positrons = MaterialRegistry.createFluidMaterial(683, "positrons", 0x7FC9FF, "fluid", null);
-val antiprotons = MaterialRegistry.createFluidMaterial(684, "antiprotons", 0x009383, "fluid", null);
-val antihydrogen = MaterialRegistry.createFluidMaterial(685, "antihydrogen", 0xC4BE97, "fluid", null);
-val positronium = MaterialRegistry.createFluidMaterial(686, "positronium", 0xC4BE97, "fluid", null);
+val positrons = MaterialRegistry.createFluidMaterial(682, "positrons", 0x7FC9FF, "fluid", null);
+val antiprotons = MaterialRegistry.createFluidMaterial(683, "antiprotons", 0x009383, "fluid", null);
+val antihydrogen = MaterialRegistry.createFluidMaterial(684, "antihydrogen", 0xC4BE97, "fluid", null);
+val positronium = MaterialRegistry.createFluidMaterial(685, "positronium", 0xC4BE97, "fluid", null);
 
 var salt_water = <material:salt_water>;
 salt_water.addFlags("GENERATE_FLUID_BLOCK");

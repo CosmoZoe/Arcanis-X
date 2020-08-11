@@ -211,6 +211,10 @@ recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.addShapedMirrored(<immersiveengineering:stone_decoration:1>, [[<gregtech:metal_casing:1>,<advancedrocketry:blastbrick>],[<advancedrocketry:blastbrick>,<gregtech:metal_casing:1>]]);
 recipes.addShapedMirrored(<immersiveengineering:stone_decoration:1>, [[<advancedrocketry:blastbrick>,<gregtech:metal_casing:1>],[<gregtech:metal_casing:1>,<advancedrocketry:blastbrick>]]);
 
+recipes.remove(<gregtech:compressed_0:15>);
+recipes.remove(<chisel:blockcopper>);
+recipes.addShaped(<gregtech:compressed_0:15>,[[<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>],[<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>],[<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>]]);
+recipes.addShapeless(<gregtech:meta_item_1:10018>*9, [<ore:blockCopper>]);
 
 
 
