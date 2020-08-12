@@ -123,6 +123,8 @@ recipes.remove(<libvulpes:productrod:4>);
 recipes.remove(<libvulpes:productrod:6>);
 recipes.remove(<libvulpes:productrod:10>);
 
+recipes.remove(<libvulpes:holoprojector>);
+recipes.addShapedMirrored(<libvulpes:holoprojector>, [[<gregtech:meta_item_1:15111>, <ore:plateStainlessSteel>, <gregtech:meta_item_1:15111>], [<gregtech:meta_item_1:12183>, <ore:circuitBasic>, <ore:plateStainlessSteel>]]);
 
 
 

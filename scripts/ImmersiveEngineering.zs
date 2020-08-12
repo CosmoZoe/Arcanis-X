@@ -23,3 +23,8 @@ recipes.addShapedMirrored(<immersiveengineering:material:9>, [[<gregtech:meta_it
 recipes.addShapedMirrored(<immersiveengineering:material:9>, [[<gregtech:meta_item_2:17184>, <ore:plateSteel>], [<ore:plateSteel>, <ore:ringSteel>]]);
 
 recipes.addShapeless(<immersiveengineering:conveyor>, [<gregtech:meta_item_1:32630>]);
+
+mods.immersiveengineering.Crusher.removeRecipe(<gregtech:meta_item_1:2123>);
+mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_item_1:2123>*6, <ore:oreBauxite>, 2048);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:material:18>, <ore:dustGraphite>, 2000);

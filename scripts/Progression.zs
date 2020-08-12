@@ -217,6 +217,9 @@ recipes.addShaped(<gregtech:compressed_0:15>,[[<ore:ingotCopper>,<ore:ingotCoppe
 recipes.addShapeless(<gregtech:meta_item_1:10018>*9, [<ore:blockCopper>]);
 
 
+recipes.remove(<deepmoblearning:trial_keystone>);
+recipes.addShaped(<deepmoblearning:trial_keystone>, [[<minecraft:diamond>, null, <minecraft:diamond>], [<ore:obsidian>, <gregtech:machine:502>, <ore:obsidian>], [<ore:obsidian>, <ore:obsidian>, <ore:obsidian>]]);
+
 
 
 

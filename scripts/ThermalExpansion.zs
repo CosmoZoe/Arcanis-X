@@ -1,3 +1,8 @@
+import mods.gregtech.recipe.RecipeMap;
+
+val fluid_extractor = RecipeMap.getByName("fluid_extractor");
+
+
 recipes.addShaped(<thermalexpansion:dynamo:1>, [[null, <thermalfoundation:material:514>, null], [<appliedenergistics2:quartz_glass>, <immersiveengineering:metal_device1:3>, <appliedenergistics2:quartz_glass>], [<gregtech:boiler_casing:1>, <advancedrocketry:iquartzcrucible>, <gregtech:boiler_casing:1>]]);
 recipes.addShaped(<thermalexpansion:dynamo:2>, [[null, <thermalfoundation:material:514>, null], [<thermalfoundation:glass:3>, <immersiveengineering:metal_device1:3>, <thermalfoundation:glass:3>], [<gregtech:boiler_casing:1>, <gregtech:boiler_firebox_casing:1>, <gregtech:boiler_casing:1>]]);
 recipes.addShaped(<thermalexpansion:dynamo:3>, [[null, <thermalfoundation:material:514>, null], [<nuclearcraft:heat_exchanger_glass>, <immersiveengineering:metal_device1:3>, <nuclearcraft:heat_exchanger_glass>], [<gregtech:boiler_casing:2>, <gregtech:boiler_firebox_casing:2>, <gregtech:boiler_casing:2>]]);
@@ -18,3 +23,6 @@ recipes.addShapedMirrored(<thermalinnovation:injector>, [[<minecraft:stone_butto
 
 recipes.addShapeless(<thermalfoundation:material:656>, [<immersiveengineering:drillhead>]);
 recipes.addShapeless(<thermalfoundation:material:657>, [<ore:toolHeadBuzzSawStainlessSteel>]);
+
+furnace.addRecipe(<minecraft:redstone>*8, <ore:clathrateRedstone>);
+fluid_extractor.recipeBuilder().inputs(<ore:clathrateRedstone>).outputs(<gregtech:meta_item_1:2328>).fluidOutputs([<liquid:redstone>*1000]).EUt(240).duration(300).buildAndRegister();

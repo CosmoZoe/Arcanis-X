@@ -1,17 +1,21 @@
 Recipe Changes:
-  tool rod -> GT rod
   add endereye/redstone dust recipe
   add recipes for synthetic gems
   soul shards components
   breaking bookshelves
-  red clathrate -> redstone
-  red alloy wire is made from wire
   cheese is made in fermenters
-  
+  holo projector
+  railcrft replace charge motor
+  impliment vulcan forge
+  natural/industrial dyes
  
 Switch to IE blast furnace/coke oven
 Removals:
   EE covalence dust
+  AR electrolyzer
+
+Multiblocks:
+	Geothermal Plant: lava + water -> steam + obsidian
   
 Modify Mob Spawning
 	Blitz

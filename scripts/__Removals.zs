@@ -24,6 +24,28 @@ mods.jei.JEI.hideCategory("gregtech:mass_fab");
 
 
 
+##### Ore Dict Removals #####
+
+//copper
+
+val copperIngotDisabled = [
+
+	<immersiveengineering:metal>,
+	<projectred-core:resource_item:100>,
+	<forestry:ingot_copper>,
+	<railcraft:ingot:1>,
+	<thermalfoundation:material:128>,
+	<libvulpes:productingot:4>
+
+	] as IItemStack[];
+	
+	for item in copperIngotDisabled {
+	<ore:ingotCopper>.remove(item);
+	mods.jei.JEI.removeAndHide(item);
+}
+
+
+
 
 
 
@@ -33,6 +55,12 @@ val disabledItems = [
 
 	<erebus:altar_offering>,
 	<erebus:materials:38>,
+	<railcraft:charge>,
+	<railcraft:charge:1>,
+	<railcraft:charge:2>,
+	<railcraft:charge:3>,
+	<railcraft:charge:4>,
+	<advancedrocketry:electrolyser>,
 	<thermaldynamics:duct_32:2>,
 	<thermaldynamics:duct_48>,
 	<thermaldynamics:duct_32:7>,
