@@ -28,3 +28,5 @@ mods.immersiveengineering.Crusher.removeRecipe(<gregtech:meta_item_1:2123>);
 mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_item_1:2123>*6, <ore:oreBauxite>, 2048);
 
 mods.immersiveengineering.BlastFurnace.addRecipe(<immersiveengineering:material:18>, <ore:dustGraphite>, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:redstone>*8, <ore:clathrateRedstone>, <gregtech:meta_item_1:2328>, 2000, 2048);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:glass:3>, <ore:dustObsidian>*4, null, 2000, 2048, [<ore:dustSaltpeter>]);

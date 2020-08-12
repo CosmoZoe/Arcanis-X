@@ -24,5 +24,4 @@ recipes.addShapedMirrored(<thermalinnovation:injector>, [[<minecraft:stone_butto
 recipes.addShapeless(<thermalfoundation:material:656>, [<immersiveengineering:drillhead>]);
 recipes.addShapeless(<thermalfoundation:material:657>, [<ore:toolHeadBuzzSawStainlessSteel>]);
 
-furnace.addRecipe(<minecraft:redstone>*8, <ore:clathrateRedstone>);
 fluid_extractor.recipeBuilder().inputs(<ore:clathrateRedstone>).outputs(<gregtech:meta_item_1:2328>).fluidOutputs([<liquid:redstone>*1000]).EUt(240).duration(300).buildAndRegister();
