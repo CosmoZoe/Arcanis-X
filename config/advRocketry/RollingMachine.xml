@@ -35,6 +35,15 @@
 	
 	<Recipe timeRequired="300" power ="200">
 		<input>
+			<itemStack>gregtech:meta_item_2;1;32505</itemStack>
+			<fluidStack>water;100</fluidStack>
+		</input>
+		<output>
+			<itemStack>gregtech:meta_item_2;1;32506</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="200">
+		<input>
 			<oreDict>plateIron</oreDict>
 			<fluidStack>water;100</fluidStack>
 		</input>

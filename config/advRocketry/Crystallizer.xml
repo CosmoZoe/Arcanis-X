@@ -34,6 +34,45 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="300" power ="20">
 		<input>
+			<oreDict>ore:dustBlaze;4</oreDict>
+			<itemStack>thaumcraft:salis_mundus</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:fire_crystal</itemStack>
+		</output>
+	</Recipe> 
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ore:dustBlizz;4</oreDict>
+			<itemStack>thaumcraft:salis_mundus</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:ice_crystal</itemStack>
+		</output>
+	</Recipe> 
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ore:dustBlitz;4</oreDict>
+			<itemStack>thaumcraft:salis_mundus</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:air_crystal</itemStack>
+		</output>
+	</Recipe> 
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ore:dustBasalz;4</oreDict>
+			<itemStack>thaumcraft:salis_mundus</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:rock_crystal</itemStack>
+		</output>
+	</Recipe> 
+	
+	
+	
+	<Recipe timeRequired="300" power ="20">
+		<input>
 			<oreDict>dustDilithium</oreDict>
 		</input>
 		<output>

@@ -498,9 +498,9 @@ projecte:homing_arrow
 projecte:fire_projectile
 projecte:swrg_projectile
 thermaldynamics:transport
+forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
-forestry:butterflyge
 gravestone:player_ghost
 nuclearcraft:feral_ghoul
 opencomputers:drone

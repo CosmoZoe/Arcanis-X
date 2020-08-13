@@ -62,7 +62,8 @@ macerator.recipeBuilder().inputs(<avaritia:resource:1>).outputs(<contenttweaker:
 <gregtech:compressed_9:11>.addTooltip(format.gray("Mg2Fe(SiO2)2"));
 <gregtech:compressed_9:11>.addTooltip(format.blue(format.italic("GregTech Community Edition")));
 
-
+recipes.addShapeless(<grimoireofgaia:shard:2>*9, [<ore:gemDiamond>]);
+recipes.addShapeless(<grimoireofgaia:shard:3>*9, [<ore:gemEmerald>]);
 
 
 

@@ -24,8 +24,8 @@
   "Dictionary Types": [
     "MUSHROOM",
     "NETHER",
-    "COLD",
-    "WET"
+    "WET",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

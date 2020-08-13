@@ -1,3 +1,7 @@
+import mods.gregtech.recipe.RecipeMap;
+
+val macerator = RecipeMap.getByName("macerator");
+
 
 recipes.remove(<gregtech:meta_item_1:2088>);
 recipes.remove(<gregtech:meta_item_2:32487>);
@@ -11,3 +15,22 @@ recipes.addShaped(<gregtech:machine:61>, [[<gregtech:meta_item_1:32641>, <gregte
 furnace.addRecipe(<gregtech:meta_item_1:10197>, <minecraft:iron_ingot>);
 recipes.addShapedMirrored(<gregtech:meta_item_1:12196>*2, [[<ore:plankWood>, null],[null,<ore:plankWood>]]);
 recipes.addShapeless(<gregtech:meta_item_1:2204>, [<gregtech:meta_tool:12>, <ore:ingotGraphite>]);
+
+recipes.remove(<gregtech:meta_item_1:32610>);
+recipes.addShaped(<gregtech:meta_item_1:32610>, [[null, <thermaldynamics:duct_16:1>, <ore:ringPaper>], [<ore:plateWroughtIron>, <ore:craftingPiston>, <ore:plateWroughtIron>], [<ore:ringPaper>, <thermaldynamics:duct_16:1>, null]]);
+
+recipes.remove(<gregtech:meta_item_1:32611>);
+recipes.addShaped(<gregtech:meta_item_1:32611>, [[null, <thermaldynamics:duct_16:3>, <ore:ringRubber>], [<ore:plateBronze>, <ore:craftingPiston>, <ore:plateBronze>], [<ore:ringRubber>, <thermaldynamics:duct_16:3>, null]]);
+
+recipes.remove(<gregtech:meta_item_1:32612>);
+recipes.addShaped(<gregtech:meta_item_1:32612>, [[null, <thermaldynamics:duct_16:7>, <ore:ringSiliconNitride>], [<ore:plateStainlessSteel>, <ore:craftingPiston>, <ore:plateStainlessSteel>], [<ore:ringSiliconNitride>, <thermaldynamics:duct_16:7>, null]]);
+
+
+recipes.remove(<gregtech:compressed_9:3>);
+recipes.addShapedMirrored(<gregtech:compressed_9:3>,[[<ore:gemCertusQuartz>,<ore:gemCertusQuartz>],[<ore:gemCertusQuartz>,<ore:gemCertusQuartz>]]);
+
+recipes.remove(<gregtech:compressed_9:4>);
+recipes.addShapedMirrored(<gregtech:compressed_9:4>,[[<ore:gemQuartzite>,<ore:gemQuartzite>],[<ore:gemQuartzite>,<ore:gemQuartzite>]]);
+
+macerator.findRecipe(8, [<gregtech:compressed_9:3>], null).remove();
+macerator.findRecipe(8, [<gregtech:compressed_9:4>], null).remove();

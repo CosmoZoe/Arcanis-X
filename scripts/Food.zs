@@ -16,3 +16,8 @@
 recipes.addShapeless(<harvestcraft:honeyitem>, [<ore:beeComb>]);
 
 recipes.addShapeless(<minecraft:sugar>, [<ore:toolMortarandpestle>, <minecraft:reeds>]);
+
+recipes.addShapeless(<minecraft:wheat_seeds>*2, [<ore:cropWheat>]);
+
+furnace.addRecipe(<harvestcraft:silkentofuitem>,<ore:foodSoymilk>);
+furnace.addRecipe(<harvestcraft:firmtofuitem>,<harvestcraft:silkentofuitem>);

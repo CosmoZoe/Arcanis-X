@@ -21,7 +21,7 @@ recipes.remove(<libvulpes:advancedmotor>);
 recipes.remove(<libvulpes:enhancedmotor>);
 recipes.remove(<libvulpes:elitemotor>);
 
-recipes.addShaped(<libvulpes:motor>, [[<ore:plateSteel>, <libvulpes:coil0:4>, <ore:plateSteel>], [<ore:stickLongWroughtIron>, <ore:gearCopper>, <contenttweaker:steel_bearing>], [<ore:plateSteel>, <libvulpes:coil0:4>, <ore:plateSteel>]]);
+recipes.addShaped(<libvulpes:motor>, [[null, <ore:plateWroughtIron>, <ore:plateWroughtIron>], [<ore:stickWroughtIron>, <ore:gearIron>, <immersiveengineering:metal_decoration0>], [null, <ore:plateWroughtIron>, <ore:plateWroughtIron>]]);
 recipes.addShaped(<libvulpes:advancedmotor>, [[<ore:plateVanadiumSteel>, <immersiveengineering:metal_decoration0:1>, <ore:plateVanadiumSteel>], [<ore:stickLongAluminium>, <ore:gearAnnealedCopper>, <contenttweaker:aluminium_bearing>], [<ore:plateVanadiumSteel>, <immersiveengineering:metal_decoration0:1>, <ore:plateVanadiumSteel>]]);
 recipes.addShaped(<libvulpes:enhancedmotor>, [[<ore:plateInvar>, <immersiveengineering:metal_decoration0:2>, <ore:plateInvar>], [<ore:stickLongTitanium>, <ore:gearElectrum>,<contenttweaker:titanium_bearing>], [<ore:plateInvar>, <immersiveengineering:metal_decoration0:2>, <ore:plateInvar>]]);
 recipes.addShaped(<libvulpes:elitemotor>, [[<ore:plateTungstenSteel>, <ore:cableGtHexNiobiumTitanium>, <ore:plateTungstenSteel>], [<ore:stickLongTungstenCarbide>, <ore:gearNfebpolar>, <contenttweaker:hssg_bearing>], [<ore:plateTungstenSteel>, <ore:cableGtHexNiobiumTitanium>, <ore:plateTungstenSteel>]]);
@@ -77,10 +77,8 @@ assembler.recipeBuilder().inputs([<ore:wireGtDoubleAluminium> * 8]).notConsumabl
 assembler.recipeBuilder().inputs([<ore:wireFineIridium> * 64, <ore:frameGtHssg>]).notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 8})).outputs([<libvulpes:coil0:10>]).duration(50).EUt(16).buildAndRegister();
 
 recipes.remove(<advancedrocketry:crystallizer>);
-recipes.addShaped(<advancedrocketry:crystallizer>, [
-	[<gregtech:meta_item_1:32614>, <gregtech:meta_item_1:32644>, <gregtech:meta_item_1:32614>], 
-	[<ore:pipeMediumTungstenSteel>, <ae2stuff:grower>, <ore:pipeMediumTungstenSteel>], 
-	[<advancedrocketry:pressuretank:1>, <gregtech:meta_item_1:32684>, <advancedrocketry:pressuretank:1>]]);
+recipes.addShaped(<advancedrocketry:crystallizer>, [[<ore:blockGlassColorless>, <gregtech:meta_item_1:32681>, <ore:blockGlassColorless>], [<ore:circuitBasic>, <ore:rotorBronze>, <ore:circuitBasic>], [<ore:cableGtDoubleRedAlloy>, <libvulpes:structuremachine>, <ore:cableGtDoubleRedAlloy>]]);
+
 
 recipes.remove(<advancedrocketry:iquartzcrucible>);
 recipes.addShaped(<advancedrocketry:iquartzcrucible>, [
@@ -128,6 +126,15 @@ recipes.addShapedMirrored(<libvulpes:holoprojector>, [[<gregtech:meta_item_1:151
 
 
 
+recipes.remove(<libvulpes:hatch:2>);
+recipes.remove(<libvulpes:hatch:3>);
+recipes.remove(<libvulpes:forgepowerinput>);
+recipes.remove(<advancedrocketry:chemicalreactor>);
+
+recipes.addShapedMirrored(<libvulpes:hatch:2>, [[<ore:blockGlass>],[<libvulpes:structuremachine>]]);
+recipes.addShapedMirrored(<libvulpes:hatch:3>, [[<libvulpes:structuremachine>],[<ore:blockGlass>]]);
+recipes.addShapeless(<libvulpes:forgepowerinput>, [<thermaldynamics:duct_0:1>,<libvulpes:structuremachine>]);
+recipes.addShaped(<advancedrocketry:chemicalreactor>, [[<ore:blockGlassColorless>, <minecraft:cauldron>, <ore:blockGlassColorless>], [<gregtech:cable:6237>, <ore:gearIron>, <ore:cableGtDoubleRedAlloy>], [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>]]);
 
 
 

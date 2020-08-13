@@ -6,10 +6,8 @@ Recipe Changes:
   cheese is made in fermenters
   impliment vulcan forge
   natural/industrial dyes
-  quicksilver -> mercury
-  Forestry Electrodes
   tofu
-  fix quartz blocks
+  glass -> quartz
  
 Fix ferrous transmutation
 Removals:
@@ -18,6 +16,9 @@ Removals:
 
 Multiblocks:
 	Geothermal Plant: lava + water -> steam + obsidian
+	
+Ores:
+	Manganese
   
 Modify Mob Spawning
 	Blitz
@@ -62,15 +63,15 @@ Remove scuttling sound in erebus
 Fix foliage graphics bug
 Reduce grimoire mobs in erebus (and overall)
 GT gem ores drop items instead of blocks
-Add casts for GT components
 add basalt ores to IE grinder
 Fuels:
   TC wood shards
 Unify ore dict for metals, etc.
 Redstone in other dimensions
 Set default controls
-add a way to get into end]
+add a way to get into end
 build generating structures
+use cofh ores in worldgen
 
 
 
