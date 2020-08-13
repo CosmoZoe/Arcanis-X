@@ -37,3 +37,39 @@ macerator.findRecipe(8, [<gregtech:compressed_9:4>], null).remove();
 
 recipes.remove(<gregtech:machine:503>);
 recipes.addShapedMirrored(<gregtech:machine:503>, [[<gregtech:meta_item_2:32506>,<ore:plateStainlessSteel>,<gregtech:meta_item_2:32506>],[<ore:cableGtSingleGold>,<gregtech:machine_casing:3>,<ore:cableGtSingleGold>]]);
+
+
+
+recipes.addShapeless(<gregtech:cable:5237>, [<ore:plateRubber>, <ore:wireGtSingleRedAlloy>]);
+recipes.addShapeless(<gregtech:cable:5017>, [<ore:plateRubber>, <ore:wireGtSingleCobalt>]);
+recipes.addShapeless(<gregtech:cable:5071>, [<ore:plateRubber>, <ore:wireGtSingleTin>]);
+recipes.addShapeless(<gregtech:cable:5079>, [<ore:plateRubber>, <ore:wireGtSingleZinc>]);
+recipes.addShapeless(<gregtech:cable:5180>, [<ore:plateRubber>, <ore:wireGtSingleSolderingAlloy>]);
+recipes.addShapeless(<gregtech:cable:5035>, [<ore:plateRubber>, <ore:wireGtSingleLead>]);
+recipes.addShapeless(<gregtech:cable:5087>, [<ore:plateRubber>, <ore:wireGtSingleAnnealedCopper>]);
+recipes.addShapeless(<gregtech:cable:5109>, [<ore:plateRubber>, <ore:wireGtSingleCupronickel>]);
+recipes.addShapeless(<gregtech:cable:5044>, [<ore:plateRubber>, <ore:wireGtSingleNickel>]);
+recipes.addShapeless(<gregtech:cable:5033>, [<ore:plateRubber>, <ore:wireGtSingleIron>]);
+recipes.addShapeless(<gregtech:cable:5018>, [<ore:plateRubber>, <ore:wireGtSingleCopper>]);
+recipes.addShapeless(<gregtech:cable:5112>, [<ore:plateRubber>, <ore:wireGtSingleElectrum>]);
+recipes.addShapeless(<gregtech:cable:5026>, [<ore:plateRubber>, <ore:wireGtSingleGold>]);
+recipes.addShapeless(<gregtech:cable:5127>, [<ore:plateRubber>, <ore:wireGtSingleKanthal>]);
+recipes.addShapeless(<gregtech:cable:5062>, [<ore:plateRubber>, <ore:wireGtSingleSilver>]);
+recipes.addShapeless(<gregtech:cable:5001>, [<ore:plateRubber>, <ore:wireGtSingleAluminium>]);
+recipes.addShapeless(<gregtech:cable:5231>, [<ore:plateRubber>, <ore:wireGtSingleBlackSteel>]);
+recipes.addShapeless(<gregtech:cable:5133>, [<ore:plateRubber>, <ore:wireGtSingleNichrome>]);
+recipes.addShapeless(<gregtech:cable:5184>, [<ore:plateRubber>, <ore:wireGtSingleSteel>]);
+recipes.addShapeless(<gregtech:cable:5072>, [<ore:plateRubber>, <ore:wireGtSingleTitanium>]);
+
+
+furnace.addRecipe(<gregtech:meta_item_1:2153>, <gregtech:meta_item_1:32627>);
+mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:resin>*144, <ore:dustRawRubber>, 96);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:rubber>*144, <liquid:resin>*144, [<ore:dustTinySulfur>], 512);
+
+
+
+
+
+
+
+
