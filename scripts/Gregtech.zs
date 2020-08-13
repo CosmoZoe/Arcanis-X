@@ -34,3 +34,6 @@ recipes.addShapedMirrored(<gregtech:compressed_9:4>,[[<ore:gemQuartzite>,<ore:ge
 
 macerator.findRecipe(8, [<gregtech:compressed_9:3>], null).remove();
 macerator.findRecipe(8, [<gregtech:compressed_9:4>], null).remove();
+
+recipes.remove(<gregtech:machine:503>);
+recipes.addShapedMirrored(<gregtech:machine:503>, [[<gregtech:meta_item_2:32506>,<ore:plateStainlessSteel>,<gregtech:meta_item_2:32506>],[<ore:cableGtSingleGold>,<gregtech:machine_casing:3>,<ore:cableGtSingleGold>]]);
