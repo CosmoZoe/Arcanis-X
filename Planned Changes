@@ -4,12 +4,14 @@ Recipe Changes:
   soul shards components
   breaking bookshelves
   cheese is made in fermenters
-  holo projector
-  railcrft replace charge motor
   impliment vulcan forge
   natural/industrial dyes
+  quicksilver -> mercury
+  Forestry Electrodes
+  tofu
+  fix quartz blocks
  
-Switch to IE blast furnace/coke oven
+Fix ferrous transmutation
 Removals:
   EE covalence dust
   AR electrolyzer
@@ -27,6 +29,7 @@ Beneath features: void hole, spire, lava tubes, vugs, dungeons, groves?
 Marble Cave stalactites/stalagmites
 Make veins larger
 Adv Rocketry Asteroids
+Waystones
 Edit Game Music
 	fallen kingdom
 	wide putin song
